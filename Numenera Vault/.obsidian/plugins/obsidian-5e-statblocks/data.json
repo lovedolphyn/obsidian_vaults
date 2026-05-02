@@ -1,0 +1,726 @@
+{
+  "monsters": [
+    [
+      "Abykos",
+      {
+        "name": "Abykos",
+        "layout": "Numenera",
+        "level": "4 (12)",
+        "image": "<STATBLOCK-WIKI-LINK>Creature - Abykos - NDiscovery.png<STATBLOCK-WIKI-LINK>",
+        "description": "An abykos is generally accepted to be a ghost by most people, but it is, in fact, a transdimensional entity. It looks like a shadowy, hazy, vaguely humaniod shimmer in the air. It is usually incorporeal and thus cannot attack or be attacked except by special pandimensional weapons created specifically to harm such creatures. An abykos can alter the phase of portions of its form when it wishes, becoming solid. Most of the time, PCs have little to fear from an abykos. However, if they have any numenera that is transdimensional in nature, the hungry abykos will attack. Because the creature is extremely alien, it’s hard to determine its level of intelligence. It seems to be adaptable and clever despite no sign of language or tool use.",
+        "motive": "Hungers for transdimensional energy",
+        "environment": "Anywhere",
+        "health": 12,
+        "damage inflicted": "4 points",
+        "movement": "Short",
+        "modifications": "Defends as level 5 (or as level 7; see Combat Notes)",
+        "actions": [
+          {
+            "name": "Metalic Claws",
+            "desc": "An abykos fights with its long, seemingly metallic claws. At the beginning or the end of its turn, it can choose to be insubstantial, solid, or partially solid. Once this decision is made, the creature can’t change state again until its next turn."
+          },
+          {
+            "name": "Drain Artifact/Cypher",
+            "desc": "As an attack, a solid abykos can touch an object that uses transdimensional energies, such as an artifact or a cypher. Instead of taking damage, the object is drained of power and becomes useless. The abykos gains +5 health when it does this, even if the increase puts it above its maximum health."
+          }
+        ],
+        "combat": "While insubstantial, it can’t affect or be affected by anything unless the attack is pandimensional (although these kinds of attacks are rare and will be called out). It can pass through solid matter without hindrance, but solid energy barriers, such as force fields, keep it at bay. While partially solid, an abykos defends as if it were level 7. It can affect and attack in this state, but it has a hard time affecting solid matter (such attacks are made as if it were level 2). While solid, an abykos can affect and be affected by others normally (including making attacks by striking or wielding a weapon).",
+        "interaction": "NONE - Interacting with an abykos is very difficult. It does not speak or respond to the language of others, and telepathic communication yields no results, as if the creature does not exist. But an abykos is not mindless; it can learn from its experiences and figure out creative solutions to problems.",
+        "use": "The PCs hear about haunted ruins not far from a small village. Apparently, after explorers visited the place, the spirits there became restless and started appearing in the village, scaring the locals. While investigating, the PCs discover that amid the ruins lies a laboratory devoted to interdimensional research. The previous explorers found and brought back artifacts powered by transdimensional energy. This stirred up a handful of abykoses, which now menace the village, trying to get at those artifacts.",
+        "loot": "Often, a device using transdimensional energies is near the location of an abykos.",
+        "gm intrusion": "The touch of an abykos disrupts and destroys a PC’s cypher or artifact.",
+        "source": "~Numenera Destiny, pg. 224"
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [
+    {
+      "name": "Numenera",
+      "blocks": [
+        {
+          "type": "group",
+          "id": "6bca9a6bb80b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "0ab93b7b49a8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "796a59ca6908",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "aa2b297a59d9",
+                      "properties": [
+                        "name"
+                      ],
+                      "size": 1,
+                      "fallback": "-"
+                    }
+                  ],
+                  "heading": ""
+                },
+                {
+                  "type": "inline",
+                  "id": "5acaaa0b695b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "c9696b5bf8db",
+                      "properties": [
+                        "level"
+                      ],
+                      "size": 1,
+                      "fallback": "-"
+                    }
+                  ],
+                  "hasRule": true
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "collapse",
+              "id": "297bc9299848",
+              "heading": "Click here for description",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "699a99592b89",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "2ac92a481aca",
+                      "properties": [
+                        "description"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "heading": "",
+                      "headingProp": false
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "group",
+              "id": "f8087a4828a8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "image",
+                  "id": "597b5a5ad969",
+                  "properties": [
+                    "image"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "hasRule": false
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "5b68fbb85b6a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "8af8b819db68",
+                  "properties": [
+                    "motive"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Motive:"
+                },
+                {
+                  "type": "property",
+                  "id": "4a6b3a2bf928",
+                  "properties": [
+                    "environment"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Environment: "
+                },
+                {
+                  "type": "property",
+                  "id": "6a9beb2a1878",
+                  "properties": [
+                    "health"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Health: "
+                },
+                {
+                  "type": "property",
+                  "id": "6b488a491988",
+                  "properties": [
+                    "damage inflicted"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Damage Inflicted: "
+                },
+                {
+                  "type": "property",
+                  "id": "9b187988b95a",
+                  "properties": [
+                    "movement"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Movement: "
+                },
+                {
+                  "type": "property",
+                  "id": "aaf898db68f9",
+                  "properties": [
+                    "modifications"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Modifications: "
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "6b3b8b5af83b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "e8cb6aba9ba9",
+                  "properties": [
+                    "actions"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "headingProp": true,
+                  "heading": "Combat:",
+                  "conditioned": true,
+                  "hasRule": true
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "collapse",
+              "id": "cbabd91929fb",
+              "heading": "Combat Notes:",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "aa788bea7b4a",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "3938fa98fb7b",
+                      "properties": [
+                        "combat"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "hasRule": true
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "collapse",
+              "id": "0bd9dbc9383a",
+              "heading": "Interaction:",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "79384978aa7b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "bb6b9b5a5b8a",
+                      "properties": [
+                        "interaction"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "hasRule": true
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "collapse",
+              "id": "5aeb287898ea",
+              "heading": "Use:",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "7b6ab80bab0b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "ebb9d81b4b68",
+                      "properties": [
+                        "use"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "hasRule": true
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "group",
+              "id": "e899bb5b08ea",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "5ada8928c908",
+                  "properties": [
+                    "loot"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "heading": "--Loot--"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "e91959ab0899",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "8bc8289a4b0b",
+                  "properties": [
+                    "gm intrusion"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "heading": "---GM Intrusion---",
+                  "conditioned": true,
+                  "hasRule": true
+                },
+                {
+                  "type": "text",
+                  "id": "b80bca79fb09",
+                  "properties": [
+                    "source"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "conditioned": true
+                }
+              ]
+            }
+          ],
+          "hasRule": false
+        }
+      ],
+      "id": "b8da494979ca",
+      "cssProperties": {
+        "primaryColor": "#580cb6",
+        "ruleColor": "#7f58b6",
+        "borderSize": "2px",
+        "contentFont": "Garamond, \"Apple Garamond\", \"Baskerville\", \"Times New Roman\", \"Droid Serif\", serif",
+        "barColor": "#d028e6",
+        "headingFont": "Garamond, \"Apple Garamond\", \"Baskerville\", \"Times New Roman\", \"Droid Serif\", serif",
+        "obsidian": {
+          "borderColor": "#ffffff",
+          "backgroundColor": "#0e045d",
+          "primaryColor": "#f3c4fd",
+          "ruleColor": "#cfadff"
+        },
+        "moonstone": {
+          "headingFontWeight": "700"
+        },
+        "headingFontColor": "primaryColor",
+        "fontColor": "ruleColor",
+        "propertyNameFont": "Garamond, \"Apple Garamond\", \"Baskerville\", \"Times New Roman\", \"Droid Serif\", serif",
+        "sectionHeadingFont": "headingFont",
+        "headingFontSize": "30px",
+        "sectionHeadingFontSize": "16px",
+        "sectionHeadingFontWeight": "bold",
+        "propertyFont": "Garamond, \"Apple Garamond\", \"Baskerville\", \"Times New Roman\", \"Droid Serif\", serif",
+        "propertyFontSize": "contentFontSize",
+        "propertyNameFontSize": "14px",
+        "propertyNameFontWeight": "bold"
+      }
+    },
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "6bca9a6bb80b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "0ab93b7b49a8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "796a59ca6908",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "aa2b297a59d9",
+                      "properties": [
+                        "name"
+                      ],
+                      "size": 1,
+                      "fallback": "-"
+                    }
+                  ],
+                  "heading": ""
+                },
+                {
+                  "type": "inline",
+                  "id": "5acaaa0b695b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "c9696b5bf8db",
+                      "properties": [
+                        "level"
+                      ],
+                      "size": 1,
+                      "fallback": "-"
+                    }
+                  ],
+                  "hasRule": true
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "collapse",
+              "id": "297bc9299848",
+              "heading": "Click here for description",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "699a99592b89",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "2ac92a481aca",
+                      "properties": [
+                        "description"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "heading": "",
+                      "headingProp": false
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "group",
+              "id": "f8087a4828a8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "image",
+                  "id": "597b5a5ad969",
+                  "properties": [
+                    "image"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true,
+                  "hasRule": false
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "5b68fbb85b6a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "8af8b819db68",
+                  "properties": [
+                    "motive"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Motive:"
+                },
+                {
+                  "type": "property",
+                  "id": "4a6b3a2bf928",
+                  "properties": [
+                    "environment"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Environment: "
+                },
+                {
+                  "type": "property",
+                  "id": "6a9beb2a1878",
+                  "properties": [
+                    "health"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Health: "
+                },
+                {
+                  "type": "property",
+                  "id": "6b488a491988",
+                  "properties": [
+                    "damage inflicted"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Damage Inflicted: "
+                },
+                {
+                  "type": "property",
+                  "id": "9b187988b95a",
+                  "properties": [
+                    "movement"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Movement: "
+                },
+                {
+                  "type": "property",
+                  "id": "aaf898db68f9",
+                  "properties": [
+                    "modifications"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "display": "Modifications: "
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "6b3b8b5af83b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "e8cb6aba9ba9",
+                  "properties": [
+                    "actions"
+                  ],
+                  "fallback": "-",
+                  "doNotAddClass": true,
+                  "headingProp": true,
+                  "heading": "Combat:",
+                  "conditioned": true,
+                  "hasRule": true
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "collapse",
+              "id": "cbabd91929fb",
+              "heading": "Combat Notes:",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "aa788bea7b4a",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "3938fa98fb7b",
+                      "properties": [
+                        "combat"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "hasRule": true
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "collapse",
+              "id": "0bd9dbc9383a",
+              "heading": "Interaction:",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "79384978aa7b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "bb6b9b5a5b8a",
+                      "properties": [
+                        "interaction"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "hasRule": true
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "collapse",
+              "id": "5aeb287898ea",
+              "heading": "Use:",
+              "hasRule": false,
+              "conditioned": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "7b6ab80bab0b",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "text",
+                      "id": "ebb9d81b4b68",
+                      "properties": [
+                        "use"
+                      ],
+                      "text": null,
+                      "fallback": "-",
+                      "hasRule": true
+                    }
+                  ]
+                }
+              ],
+              "open": false
+            },
+            {
+              "type": "group",
+              "id": "e899bb5b08ea",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "5ada8928c908",
+                  "properties": [
+                    "loot"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "heading": "--Loot--"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "e91959ab0899",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "8bc8289a4b0b",
+                  "properties": [
+                    "gm intrusion"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "heading": "---GM Intrusion---",
+                  "conditioned": true,
+                  "hasRule": true
+                },
+                {
+                  "type": "text",
+                  "id": "b80bca79fb09",
+                  "properties": [
+                    "source"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "conditioned": true
+                }
+              ]
+            }
+          ],
+          "hasRule": false
+        }
+      ],
+      "name": "Numenera Copy",
+      "id": "79e85aea29ea"
+    }
+  ],
+  "default": "b8da494979ca",
+  "useDice": true,
+  "renderDice": true,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 4,
+    "minor": 10,
+    "patch": 3
+  },
+  "paths": [
+    "/",
+    "2-Mechanics/Bestiary"
+  ],
+  "autoParse": true,
+  "disableSRD": true,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

@@ -1,0 +1,306 @@
+{
+  "main": {
+    "id": "aa33e882cfad3aab",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd134abe27de198f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d89714ef01e1690",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Landing Page.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Landing Page"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97eac85776da8cbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc190f6c3c20f2e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e2ba80b7352a00a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82141f741be3436d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "34088f14fa4dede6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.5
+  },
+  "right": {
+    "id": "2b6b147090d285b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3bf96f7e5be00b",
+        "type": "tabs",
+        "dimension": 38.856589147286826,
+        "children": [
+          {
+            "id": "654077fca6f38e7a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0-Scratch Notes/Session Notes/05-01-2026.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 05-01-2026"
+            }
+          },
+          {
+            "id": "ee238507ce8eafd0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0-Scratch Notes/Session Notes/05-01-2026.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 05-01-2026"
+            }
+          },
+          {
+            "id": "4fbf3646e586f8e2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "095d017330ae707c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "z. Assets/z. Assets.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of z. Assets"
+            }
+          },
+          {
+            "id": "bae19abaec462b2d",
+            "type": "leaf",
+            "state": {
+              "type": "MAIN_VIEW",
+              "state": {},
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
+            }
+          },
+          {
+            "id": "be2a0719d8a71435",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "8ddff280624fee9c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "196ac3f4c75947a4",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "e6fe47b7c91f0e30",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-dnd_beyond",
+              "state": {},
+              "icon": "lucide-user-round-pen",
+              "title": "DnD_Beyond"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "664e220323b158aa",
+        "type": "tabs",
+        "dimension": 61.143410852713174,
+        "children": [
+          {
+            "id": "c4a640b7cb9f0d38",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {
+                "creatureId": null,
+                "creatureName": null
+              },
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 468.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "bases:Create new base": true,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-importer:Open Importer": false,
+      "solo-rpg-toolkit:Solo RPG Toolkit": false,
+      "fantasy-content-generator:Fantasy Generators": false,
+      "obsidian-custom-frames:Open DnD_Beyond": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": true,
+      "obsidian42-brat:BRAT": true
+    }
+  },
+  "active": "2d89714ef01e1690",
+  "lastOpenFiles": [
+    "2-Mechanics/CLI/adventures/lost-mine-of-phandelver/lost-mine-of-phandelver.md",
+    "2-Mechanics/CLI/adventures/lost-mine-of-phandelver/1-introduction.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/4. Town of Phandalin/4. Town of Phandalin.md",
+    "Untitled 1.md",
+    "2-Mechanics/CLI/adventures/lost-mine-of-phandelver/3-phandalin.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1. Phandalin.md",
+    "2-Mechanics/CLI/bestiary/npc/sildar-hallwinter-pabtso.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1_Lost Mine of Phandelver.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Sword Coast.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Faerun.md",
+    "1-Worlds/Forgotten Realm/Forgotten Realm.md",
+    "1-Worlds/1-Worlds.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1. DM Notes/1. DM Notes.md",
+    "1-Worlds/Adventures Index.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/6. Wave Echo Cave/6. Wave Echo Cave.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/5. The Spider's Web/5. The Spider's Web.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/3. First Encounter/3. First Encounter.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/2. Hook and Intro/2. Hook and Intro.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1. DM Notes/NPCs/NPCs.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1. DM Notes/Mobs/Mobs.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1. DM Notes/NPCs/NPC 1.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1. DM Notes/Mobs/Redbrand Ruffian Thug.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/1. DM Notes/Mobs/Goblin.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/Sword Coast Map.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/4. Town of Phandalin/4.13 - Encounter - Redbrand Hideout.md",
+    "1-Worlds/Forgotten Realm/1. Faerun/1. Sword Coast/1. Phandalin/1_Lost Mine of Phandelver/4. Town of Phandalin/4.1 - Phandalin.md",
+    "z. My D&D Resources/Entire-Sword-Coast-Map_HighRes.jpg",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/114-appendix-b-05.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/113-appendix-b-04.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/109-appendix-a-11.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/108-appendix-a-10.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/107-636953238721182878.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/106-636953238397675166.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/105-636953237219335109.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/104-636953236705926018.webp",
+    "2-Mechanics/CLI/books/acquisitions-incorporated/img/103-636953235648001537.webp",
+    "z. Assets/Tarot",
+    "z. Assets/Standard",
+    "0-Scratch Notes/Obsidian Notes and How To's",
+    "1-Worlds/Forgotten Realm/1. Faerun",
+    "1-Worlds/Forgotten Realm",
+    "0-Scratch Notes/Session Notes",
+    "1-Worlds/1. Sword Coast/1. Phandalin/Lost Mine of Phandelver/Players",
+    "1-Worlds/Test Adventure",
+    "z. My D&D Resources/dnd_starterset_characters.pdf",
+    "z. My D&D Resources/DnD_2024_CharacterSheet - Form.pdf",
+    "Home.canvas"
+  ]
+}

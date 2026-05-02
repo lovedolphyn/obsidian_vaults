@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "modifier": "number",
+    "ac": "number",
+    "hp": "number",
+    "pasperc": "number",
+    "status": "text",
+    "sessionDate": "date",
+    "players": "number",
+    "sessionStatus": "checkbox"
+  }
+}

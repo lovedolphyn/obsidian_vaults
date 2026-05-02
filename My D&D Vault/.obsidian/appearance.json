@@ -1,0 +1,13 @@
+{
+  "cssTheme": "ITS Theme",
+  "theme": "moonstone",
+  "accentColor": "#a640ba",
+  "enabledCssSnippets": [
+    "S - Encoded Fonts",
+    "S - Encoded Icons",
+    "Custom Alert Snipit",
+    "dnd5e-compendium",
+    "supercharged-links-gen"
+  ],
+  "baseFontSize": 18
+}

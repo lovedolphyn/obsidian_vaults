@@ -1,0 +1,249 @@
+{
+  "mapMarkers": [
+    {
+      "id": "Phandalin_DM",
+      "lastAccessed": 1777418904033,
+      "markers": [
+        {
+          "id": "ID_f8e99a4beb28",
+          "type": "Town",
+          "loc": [
+            3087.5625,
+            4542
+          ],
+          "link": "Phandalin",
+          "layer": "%5B%5BPhandalin_DM_Map.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_584b386b5b09",
+          "type": "default",
+          "loc": [
+            1683.125,
+            2140
+          ],
+          "link": "Townmaster's Hall",
+          "layer": "%5B%5BPhandalin_DM_Map.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": -2,
+          "maxZoom": -3,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_1b4a7a4a8a2b",
+          "type": "default",
+          "loc": [
+            1698.161129193318,
+            2125.5629842467615
+          ],
+          "link": "Townmaster's Hall",
+          "layer": "%5B%5BPhandalin_DM_Map.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Townmaster",
+          "minZoom": 0,
+          "maxZoom": -3,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9ae90a29795b",
+          "type": "Point of Interest",
+          "loc": [
+            1676,
+            2141
+          ],
+          "link": "Townmaster's Hall",
+          "layer": "%5B%5BPhandalin_DM_Map.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.21626262626262627,
+            -0.24289855072463767
+          ],
+          "description": "Harbin Wester",
+          "minZoom": -2,
+          "maxZoom": 0,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": []
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker-alt",
+    "color": "#5423c7",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    },
+    "isImage": false
+  },
+  "markerIcons": [
+    {
+      "type": "Town",
+      "iconName": "house-user",
+      "color": "#820303",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Region",
+      "iconName": "map",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Encounter",
+      "iconName": "skull-crossbones",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "City",
+      "iconName": "star",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Forest",
+      "iconName": "tree",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Dungeon",
+      "iconName": "dungeon",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Ruins",
+      "iconName": "chess-rook",
+      "color": "#dddddd",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Point of Interest",
+      "iconName": "star-of-life",
+      "color": "#800000",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": true,
+  "layerMarkers": false,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

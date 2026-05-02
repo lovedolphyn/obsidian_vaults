@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://www.dndbeyond.com/characters",
+      "displayName": "DnD_Beyond",
+      "icon": "user-round-pen",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

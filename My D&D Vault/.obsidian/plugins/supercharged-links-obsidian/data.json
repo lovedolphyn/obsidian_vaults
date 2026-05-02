@@ -1,0 +1,29 @@
+{
+  "targetAttributes": [
+    "NoteIcon"
+  ],
+  "targetTags": true,
+  "getFromInlineField": false,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "enableBases": true,
+  "selectors": [
+    {
+      "type": "attribute",
+      "name": "NoteIcon",
+      "value": "player",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "363d-e088",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}

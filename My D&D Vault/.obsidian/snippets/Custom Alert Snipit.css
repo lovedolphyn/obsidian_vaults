@@ -1,0 +1,4 @@
+.callout[data-callout="custom-alert"] {
+    --callout-color: 255, 191, 0;
+    --callout-icon: lucide-triangle-alert;
+}
