@@ -1,1 +1,6 @@
-{}
+{
+  "openBehavior": "file:Numenera Landing Page",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "z-Assets",
+  "alwaysUpdateLinks": true
+}

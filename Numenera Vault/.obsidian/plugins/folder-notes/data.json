@@ -13,7 +13,7 @@
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
   "underlineFolder": false,
-  "stopWhitespaceCollapsing": true,
+  "stopWhitespaceCollapsing": false,
   "underlineFolderInPath": true,
   "openFolderNoteOnClickInPath": true,
   "openInNewTab": true,
@@ -23,8 +23,8 @@
   "folderNoteType": ".md",
   "disableFolderHighlighting": false,
   "newFolderNoteName": "{{folder_name}}",
-  "storageLocation": "insideFolder",
-  "syncDelete": false,
+  "storageLocation": "parentFolder",
+  "syncDelete": true,
   "showRenameConfirmation": true,
   "defaultOverview": {
     "id": "",
@@ -43,7 +43,7 @@
     "showEmptyFolders": false,
     "onlyIncludeSubfolders": false,
     "storeFolderCondition": true,
-    "showFolderNotes": true,
+    "showFolderNotes": false,
     "disableCollapseIcon": true,
     "alwaysCollapse": false,
     "autoSync": true,
@@ -52,7 +52,7 @@
     "hideFolderOverview": false,
     "useActualLinks": false,
     "fmtpIntegration": false,
-    "titleSize": 3,
+    "titleSize": 4,
     "isInCallout": false,
     "useWikilinks": true
   },
@@ -63,7 +63,7 @@
     "explorer": true,
     "path": true
   },
-  "settingsTab": "path",
+  "settingsTab": "general",
   "supportedFileTypes": [
     "md",
     "canvas",
@@ -116,7 +116,7 @@
   "deleteFilesAction": "trash",
   "openSidebar": {
     "mobile": false,
-    "desktop": true
+    "desktop": false
   },
   "highlightFolder": true,
   "persistentSettingsTab": {

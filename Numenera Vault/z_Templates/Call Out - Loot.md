@@ -1,0 +1,2 @@
+>[!success] Loot:
+>Text

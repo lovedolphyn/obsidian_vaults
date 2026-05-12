@@ -1,0 +1,1 @@
+Glister is a kind of berry that can be eaten, distilled into wine, or used as an ingredient in other foods.

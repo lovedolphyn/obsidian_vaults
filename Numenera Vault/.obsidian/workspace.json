@@ -8,20 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7834fe40842f0c7",
+            "id": "6a143a417631a684",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Campaign/Locations/9th World/Steadfast_Beyond/Steadfast/Navarene/Gram.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Gram"
+            }
+          },
+          {
+            "id": "18544c1870ec95bc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Campaign/Equipment Lists and Prices.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Equipment Lists and Prices"
+            }
+          },
+          {
+            "id": "db32e2328a909079",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Session Notes/05-02-2026.md",
+                "file": "WIP - ANEEN 3 (9).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-02-2026"
+              "title": "WIP - ANEEN 3 (9)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 348.5
   },
   "right": {
     "id": "42c0987fd9cd5b61",
@@ -87,6 +120,7 @@
       {
         "id": "957e6b78d2f5e9b0",
         "type": "tabs",
+        "dimension": 45.89989350372738,
         "children": [
           {
             "id": "6b9ac3ff1b6f12a3",
@@ -94,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-Campaign/Locations/9th World/Steadfast_Beyond/Steadfast/Navarene/Gram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Gram"
             }
           },
           {
@@ -112,11 +147,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "WIP - ANEEN 3 (9).md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from WIP - ANEEN 3 (9)"
             }
           },
           {
@@ -154,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "1-The Party/Players.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Players"
             }
           },
           {
@@ -172,34 +208,27 @@
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
             }
-          },
-          {
-            "id": "74a41bcca19d16c3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "1-World Source Books/1. Numenera Discovery.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "1. Numenera Discovery"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
-        "id": "2ce9083d4405069f",
+        "id": "6f750ccb6884ef4c",
         "type": "tabs",
+        "dimension": 54.10010649627262,
         "children": [
           {
-            "id": "7df6ac369d644afa",
+            "id": "1e4fb5f058c33b57",
             "type": "leaf",
             "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
+              "type": "markdown",
+              "state": {
+                "file": "0-Scratch Notes/05-02-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05-02-2026"
             }
           }
         ]
@@ -216,51 +245,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "bases:Create new base": true,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "templater-obsidian:Templater": false,
-      "command-palette:Open command palette": false
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "a7834fe40842f0c7",
+  "active": "db32e2328a909079",
   "lastOpenFiles": [
-    "2-Mechanics/Bestiary/Abykos.md",
-    "2-Session Notes/05-02-2026.md",
-    "z_Templates/Insert Encounter (Initiative Tracker).md",
+    "z-Assets/PDFs/Adventures/Adventures.md",
+    "z-Assets/PDFs/Bestiary/Bestiary.md",
+    "z-Assets/PDFs/Maps/Maps.md",
+    "z-Assets/PDFs/Ninth World Collection/Ninth World Collection.md",
+    "z-Assets/PDFs/World Source Books/World Source Books.md",
+    "z_Templates/PDF Catalog with Folder - Template.md",
+    "z-Assets/PDFs/World Source Books/0. Numenera-Legacy-Content.pdf",
+    "WIP - ANEEN 3 (9).md",
+    "0-Scratch Notes/0-Scratch Notes.md",
+    "0-Scratch Notes/05-02-2026.md",
+    "0-Session Notes/0-Session Notes.md",
+    "z-Assets/Fillable Character Sheets/Fillable Character Sheets.md",
+    "z-Assets/Fillable Character Sheets/Numenera Into the Ninth World-Char Sheets.pdf",
+    "z-Assets/Fillable Character Sheets/Numenera Discovery Char Sheets.pdf",
+    "z-Assets/Fillable Character Sheets/Numenera Destiny Char Sheets.pdf",
+    "z-Assets/Fillable Character Sheets/Numenera Char Sheets-Legacy.pdf",
+    "z-Assets/Fillable Character Sheets/N2 Character Sheets.pdf",
+    "z-Assets/Fillable Character Sheets/1-Character Creation Instructions.pdf",
+    "1-Campaign/1-Campaign.md",
+    "0-DM Files/0-DM Files.md",
+    "0-DM Files/Maps for GM only/Maps for GM only.md",
+    "0-DM Files/Maps for GM only/The Steadfast and Beyond_General Territory Notes for GM.jpg",
+    "0-DM Files/Maps for GM only/The Steadfast and Beyond_Both General Territory and Adventure Notes for the GM.jpg",
+    "0-DM Files/Maps for GM only/The Steadfast and Beyond_Adventure Notes for GM.jpg",
+    "Numenera Landing Page.md",
     "Insert Custom Encounter (Initiative Tracker).md",
     "Insert Custom Encounter Table (Initiative Tracker).md",
-    "0-DM Files/Fillable Character Sheets/1-Character Creation Instructions.pdf",
-    "0-DM Files/Fillable Character Sheets/Numenera Destiny Char Sheets.pdf",
-    "0-DM Files/Fillable Character Sheets/Numenera Into the Ninth World-Char Sheets.pdf",
-    "0-DM Files/Fillable Character Sheets/Numenera Discovery Char Sheets.pdf",
-    "0-DM Files/Fillable Character Sheets/Numenera Char Sheets-Legacy.pdf",
-    "0-DM Files/Fillable Character Sheets/N2 Character Sheets.pdf",
-    "0-DM Files/Fillable Character Sheets/Fillable Character Sheets.md",
-    "0-DM Files/Fillable Character Sheets",
-    "Numenera Landing Page.md",
-    "1-World Source Books/1. Numenera Discovery.pdf",
-    "1-World Source Books/2. Numenera Destiny.pdf",
-    "1-The Party/Players.md",
-    "1-World Source Books/Untitled.md",
-    "0-Scratch Notes/Notes.md",
-    "z_Templates/Insert Monster (Statblock).md",
-    "z_Templates/Insert Monster Statblock - Template.md",
-    "2-Mechanics/2-Mechanics.md",
+    "z-Assets/Images/Mobs/Mobs.md",
+    "z-Assets/Images/Numenera Poster.jpg",
+    "z-Assets/Images/Adventures/img - View of Gram.jpg",
+    "z-Assets/Images/Adventures/img - symbol of Navarene.jpg",
+    "z-Assets/Images/Maps/Maps.md",
+    "z-Assets/Images/Adventures/Img - TakerOfSorrow.png",
+    "z-Assets/Images/Adventures/Img - Taker of Sorrow Banner.jpg",
+    "z-Assets/Images/Adventures/Img - AdventureTimeline.png",
+    "1-Campaign/Equipment Lists and Prices.md",
+    "1-Campaign/Locations/9th World/Steadfast_Beyond/Steadfast/Navarene/Gram.md",
     "2-Mechanics/Bestiary/Bestiary.md",
-    "2-Session Notes/2-Session Notes.md",
-    "2026-05-02.md",
-    "z-Assets/Images/Creature - Abykos - NDiscovery.png",
-    "z-Assets/z-Assets.md",
-    "z-Assets/Images",
-    "Pic.md",
-    "0-DM Files/0-DM Files.md",
-    "z_Templates/z_Templates.md",
-    "1. Adventures Source Books/1. Adventures Source Books.md",
-    "1-World Source Books/1-World Source Books.md",
-    "1-The Party/1-The Party.md",
-    "0-Scratch Notes/0-Scratch Notes.md",
-    "1. Adventures Source Books/1. Discovery Adventures/1. Adventure - Taker of Sorrow.md",
-    "1. Adventures Source Books/2. Destiny Adventures/4. Adventure - Terminus.md"
+    "1-The Party/Players.md",
+    "1-Campaign/1. Start Here/1. Start Here.md",
+    "1-Campaign/1. Start Here/1. Numenera Discovery/1. Numenera Discovery.md",
+    "1-Campaign/1. Start Here/2. Numenera Destiny/2. Numenera Destiny.md",
+    "z-Assets/PDFs",
+    "z-Assets/Images/Maps/Navarene - DM Map.jpg",
+    "z-Assets/PDFs/World Source Books/2. Numenera Destiny.pdf",
+    "z-Assets/PDFs/World Source Books/1. Numenera Discovery.pdf"
   ]
 }

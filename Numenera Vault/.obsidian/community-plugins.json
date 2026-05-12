@@ -8,5 +8,9 @@
   "obsidian-leaflet-plugin",
   "obsidian-meta-bind-plugin",
   "supercharged-links-obsidian",
-  "folder-notes"
+  "folder-note-plugin",
+  "alx-folder-note-folderv",
+  "obsidian-text-format",
+  "image-window",
+  "highlightr-plugin"
 ]

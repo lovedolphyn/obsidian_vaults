@@ -1,4 +1,5 @@
 {
   "format": "MM-DD-YYYY",
-  "folder": "2-Session Notes"
+  "folder": "0-Session Notes",
+  "template": "z_Templates/Session Template"
 }

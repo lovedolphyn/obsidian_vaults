@@ -1,0 +1,19 @@
+{
+  "saveWindowLocations": true,
+  "useCustomWindowName": false,
+  "customWindowName": "Second Window",
+  "windows": {
+    "Second Window": {
+      "hosts": {
+        "Gins_Gamerz": {
+          "x": 1738,
+          "y": -8,
+          "width": 1761,
+          "height": 954,
+          "fullscreen": false,
+          "maximized": true
+        }
+      }
+    }
+  }
+}
